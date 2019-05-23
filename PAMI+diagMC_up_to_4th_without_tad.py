@@ -479,14 +479,13 @@ print 'a = ', lat_const
 ##########Read AMI arrays##########
 ###################################
 #Begin
-S_list=[[None]*1 for i in range(0,2)]
-P_list_freq=[[None]*1 for i in range(0,2)]
-P_list_mnta=[[None]*1 for i in range(0,2)]
-R_list_freq=[[None]*1 for i in range(0,2)]
-R_list_mnta=[[None]*1 for i in range(0,2)]
-G_sym_list=[[None]*1 for i in range(0,2)]
-F_list=[[None]*1 for i in range(0,2)]
-
+S_list=[[None]*3 for i in range(0,3)]
+P_list_freq=[[None]*3 for i in range(0,3)]
+P_list_mnta=[[None]*3 for i in range(0,3)]
+R_list_freq=[[None]*3 for i in range(0,3)]
+R_list_mnta=[[None]*3 for i in range(0,3)]
+G_sym_list=[[None]*3 for i in range(0,3)]
+F_list=[[None]*3 for i in range(0,3)]
 number=1
 for m in range (2,4):
   #print 'm = ', m
